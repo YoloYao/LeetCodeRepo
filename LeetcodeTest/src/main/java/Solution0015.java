@@ -17,9 +17,8 @@ import java.util.List;
  * 用两数相加为0类推。取出第一个数，以该数和0的差值作为
  * 剩余两数相加的目标值。
  * 注意：要求没有重复值，所以遇到重复值需要跳过
- * @author yaoyue
  */
-public class Solution0015 {
+class Solution0015 {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) {
             return new ArrayList<>();
