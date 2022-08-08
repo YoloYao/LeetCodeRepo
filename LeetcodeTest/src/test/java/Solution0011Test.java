@@ -19,7 +19,7 @@ class Solution0011Test {
     }
 
     @Test
-    void sameHeight() {
+    void sameHeightCase() {
         int[] arr = new int[]{1,1};
         System.out.println(solution.maxArea(arr));
     }
